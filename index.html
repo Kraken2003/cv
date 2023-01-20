@@ -1,54 +1,121 @@
-
 </!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>sharl's webisite</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prithvi Singh Chohan</title>
+  <link rel="stylesheet" href="css/test.css">
+  <link rel="icon"  href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="flickity-docs/docs/flickity.css" media="screen">
+
+
+
 </head>
-	<body>
-		<table cellspacing="20">
-			<tr>
-				<td><img src = "IMG_20220520_204327.jpg" alt = "prithvi's profile picture"></td>
-				<td><h1>Prithvi Singh Chohan</h1>
-		<p><a href="https://www.linkedin.com/in/prithvi-singh-chohan-278a53208/">Sophomore</a> studying <b>Engineering Physics</b> at DTU</p>
-		<p>My focus is on digital system design and IoT and actively learning WebDeV</p></td>
-			</tr>
-		</table>
-		<hr>
-		<h3>Education</h3>
-		<table border = "1">
-			<thead>
-				<tr>
-					<th>Degree</th>
-					<th>Institution</th>
-					<th>Year of Passout</th>
-				</tr>
-			</thead>
-			<tbody>
-			<tr>
-				<td>Marticulation</td>
-				<td>Maxfort School, Rohini</td>
-				<td>2019</td>
-			</tr>
-			<tr>
-				<td>High School Certificate</td>
-				<td>Maxfort School, Rohini</td>
-				<td>2021</td>
-			</tr>
-			<tr>
-				<td>Bachelor in Technology</td>
-				<td>Delhi Technological University, Rohini</td>
-				<td>2025</td>
-			</tr>
-			</tbody>
-		</table>
-		<hr>
-		<h3>Projects and relevant work experience</h3>
-		<ol>
-			<li>Emergency Geolocation and alert messaging system using SMS</li>
-		</ol>
-		<hr>
-		<a href="contact.html">Contact me</a>
-			</body>
+
+<body>
+
+
+<div id="particles-js"></div>
+
+ <div class="top-container">
+  <img class = "pfp" src = "images/blackkurta1.png" align="right">
+  <div class="text">
+    <h1>I'm Prithvi</h1>
+    <p>An Engineering Sophomore at Delhi Technological University.</p>
+  </div>
+</div>
+
+<div class="middle-container">
+
+  <div class="profile">
+    <img class="bio" src="images/icons/001-technology.png" align="left">
+    <div class="profile-text">
+    <h2>About Me</h2>
+    <p>I am currently studying engineering physics at Delhi Technological University and have an active interest in robotics, system design and IoT. I am open to any and all sorts of collaborative project and research work on related subjects. Please do contact using the details given down below.</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <div id="slider">
+   <input type="radio" name="slider" id="slide1" checked>
+   <input type="radio" name="slider" id="slide2">
+   <input type="radio" name="slider" id="slide3">
+   <input type="radio" name="slider" id="slide4">
+   <div id="slides">
+      <div id="overflow">
+         <div class="inner">
+            <div class="slide slide_1">
+               <div class="skill-row">
+                  <img class="slimg-1" src="images/icons/002-cpu.png" alt="cpu">
+                  <br>
+                  <h2>Electronics</h2>
+                  <br>
+                  <p>Have knowledge over microcontrollers and microprocessors and interested to work in the field of digital electronics and system design.</p>
+               </div>
+            </div>
+            <div class="slide slide_2">
+               <div class="slide-content">
+                <img class="slimg-2" src="images/icons/003-data-management.png" alt="computer">
+                <br>
+                  <h2>Web Development</h2> <br>
+                  <p>Currently learning front end development.(P.S I made this website myself :D)</p>
+               </div>
+            </div>
+            <div class="slide slide_3">
+               <div class="slide-content">
+                <img class="slimg-3" src="images/icons/007-chip.png" alt="brain">
+                <br>
+                  <h2>Machine Learning and AI</h2><br>
+                  <p>Work in Progress . . .</p>
+               </div>
+            </div>
+            <div class="slide slide_4">
+               <div class="slide-content">
+                <img class="slimg-4" src="images/icons/008-nanotechnology.png" alt="nano">
+                <br>
+                  <h2>Material Science</h2> <br>
+                  <p>My courses include subjects like solid state physics, semiconductors and fabrication, etc hence i am interested in working under related project work.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="controls">
+      <label for="slide1" style="margin: 0px;"></label>
+      <label for="slide2" style="margin: 0px;"></label>
+      <label for="slide3" style="margin: 0px;"></label>
+      <label for="slide4" style="margin: 0px;"></label>
+   </div>
+  </div>
+
+
+</div>
+  
+
+
+
+<div class="bottom-container">
+   
+  <a class="footer-link" href="https://www.linkedin.com/in/prithvichohan/">LinkedIn</a> &nbsp;
+  <a class="footer-link" href="https://github.com/Kraken2003">GitHub</a> &nbsp;
+  <a class="footer-link" href="https://www.instagram.com/sharl_008/">Instagram</a> &nbsp;
+  <br><br>
+  <a class="btn" href="mailto:chohanprithvisingh@gmail.com">CONTACT ME</a>
+  <br><br>
+  <p id="copyright">Copyright © 2023  Prithvi Singh Chohan</p>
+  
+</div>
+  
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script src="flickity-docs/docs/flickity.pkgd.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</body>
 </html>
